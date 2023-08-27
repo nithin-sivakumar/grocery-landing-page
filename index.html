@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container min-h-screen min-w-full bg-[url('./images/bg.png')] bg-center bg-cover relative">
+        <!-- Nav Bar -->
+        <nav class="flex items-center mx-5">
+            <a href="#"><img src="./images/brand-logo.png" width="150px"/></a>
+            <ul class="text-white flex-1 text-center">
+                <li class="list-none inline-block px-5 hover:text-yellow-300 cursor-pointer"><a class="no-underline px-2" href="#">Home</a></li>
+                <li class="list-none inline-block px-5 hover:text-yellow-300 cursor-pointer"><a class="no-underline px-2" href="#">About</a></li>
+                <li class="list-none inline-block px-5 hover:text-yellow-300 cursor-pointer"><a class="no-underline px-2" href="#">Features</a></li>
+                <li class="list-none inline-block px-5 hover:text-yellow-300 cursor-pointer"><a class="no-underline px-2" href="#">Contact</a></li>
+            </ul>
+            <a href="#"><img class="cart-icon mr-10" src="./images/grocery-store.png" /></a>
+            <!-- <a href="https://www.flaticon.com/free-icons/retail" title="retail icons">Retail icons created by Frey Wazza - Flaticon</a> -->
+        </nav>  
+
+        <!-- Main -->
+        <div class="text-white mt-20 mx-20 max-w-sm">
+            <h1 class="text-4xl font-semibold leading-normal">Delivery in <span class="text-4xl font-light">15 mins</span></h1>
+            <p>Velivery offers a wide range of products, including fresh vegetables, meat, diary, baked goods and non perishable items. So what are you waiting for?</p>
+            <div class="mt-5">
+                <a class="bg-transparent rounded-md py-3 px-8 font-medium inline-block text-white mr-4 border border-yellow-300 hover:bg-yellow-300 hover:text-black hover:border-transparent duration-300" href="#">Order Now</a>
+                <a class="py-3 hover:text-yellow-300 hover:px-2 duration-300" href="#">Download App <span class="text-lg inline-block">&#8614;</span></a>
+            </div>
+
+            <img class="w-1/2 xl:max-w-lg xl:absolute bottom-0 right-20" src="./images/man.png" />
+        </div>
+    </div> 
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+* {
+    font-family: 'Helevetica', 'sans-serif';
+    font-size: large;
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+.cart-icon {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    mask: url('./images/grocery-store.png') center / contain no-repeat;
+    filter: invert(100%);
+}
