@@ -14,3 +14,12 @@ body {
     mask: url('./images/grocery-store.png') center / contain no-repeat;
     filter: invert(100%);
 }
+
+
+.cart-icon:hover {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    mask: url('./images/grocery-store.png') center / contain no-repeat;
+    filter: invert(50%);
+}
